@@ -17,7 +17,7 @@ func main() {
 	admin, err := kafka.NewAdminClient(&kafka.ConfigMap{"bootstrap.servers": bootstrapServers})
 
 	if err != nil {
-		fmt.Printf("Failet to create admin client: %s\n", err)
+		fmt.Printf("Failed to create admin client: %s\n", err)
 		os.Exit(1)
 	}
 
