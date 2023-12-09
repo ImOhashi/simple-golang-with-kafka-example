@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-	bootstrapServers := "http://localhost:9092"
+	bootstrapServers := "localhost:9092"
 	topic := "topic-with-golang"
 	numParts := 2
 
